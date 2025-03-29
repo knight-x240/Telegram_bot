@@ -4,7 +4,7 @@ import telebot
 API_TOKEN = '7706714998:AAFRI_jFMrGatp-x2CtvRlrXTgnW0E-t3ec'
 
 # Initialize the bot
-bot = telebot.TeleBot(7706714998:AAFRI_jFMrGatp-x2CtvRlrXTgnW0E-t3ec)
+bot = telebot.TeleBot('7706714998:AAFRI_jFMrGatp-x2CtvRlrXTgnW0E-t3ec')
 
 # Define a handler for the /start command
 @bot.message_handler(commands=['start'])
