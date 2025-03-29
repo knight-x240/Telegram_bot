@@ -9,7 +9,7 @@ bot = telebot.TeleBot(API_TOKEN)
 # Define a handler for the /start command
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.reply_to(message, "Welcome to my bot!")
+    bot.reply_to(message, "Welcome to my bot! hi friend s")
 
 # Define a handler for the /help command
 @bot.message_handler(commands=['help'])
